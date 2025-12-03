@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header{
+    background: linear-gradient(135deg, #646464 1px, #002d70 40%);
+    padding: 10px 0;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background: linear-gradient(135deg, #081738 20%, #0042a5);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+main h3{
+    background-color: #002d70;
+    opacity: 87%;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 100px 100px 200px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
