@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceano vivo - Inscrição</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <img src="img/logo.png" alt="logo do site Oceano vivo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="receitas.html">Animais famosos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="formulario.html">Formulario</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <p>Se você se interessou por umas das áreas, gostaria de se inscrever em um curso da área? Se sim, preencha o formulario a baixo</p>
+         <section class="formulario-section">
+            <h3>Formulario Inscrição</h3>
+
+            <form method="get" class="Formulario">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu Nome Completo" required>
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu@eMail.com" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(11) 1 1111-1111">
+                    
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00" required>
+                    
+                    <label for="ddn">Data de Nascimento</label>
+                    <input type="date" name="ddn" id="ddn" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Curso de Interesse</legend>
+                    <label for="curso">Escolha um curso</label>
+                    <select name="curso" id="curso" required>
+                        <option value="biologia-marinha">Biologia Marinha</option>
+                        <option value="oceanografo">Oceanografia</option>
+                        <option value="engenharia-pesca">Engenharia de pesca</option>
+                    </select>
+
+                    <label>Modalidade preferida</label>
+                    <div class="radio-group">
+                        <input type="radio" id="online" name="modalidade" value="onine">
+                        <label for="online">Online</label>
+
+                        <input type="radio" id="hibrido" name="modalidade" value="hibrido">
+                        <label for="hibrido">Hibrido</label>
+
+                        <input type="radio" id="presencial" name="modalidade" value="presencial">
+                        <label for="presencial">Presencial</label>
+                    </div>
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Horários Disponiveis</legend>
+                    <div class="check-box">
+                        <input type="checkbox" id="manha" name="horario" value="manha">
+                        <label for="manha">Manhã</label>
+                        <input type="checkbox" id="tarde" name="horario" value="tarde">
+                        <label for="tarde">Tarde</label>
+                        <input type="checkbox" id="noite" name="horario" value="noite">
+                        <label for="noite">Noite</label>
+                    </div>
+                </fieldset>
+
+                <div class="botoes">
+                    <button type="submit">Enviar inscrição</button>
+                    <button type="reset">Limpar formulario</button>
+                </div>
+            </form>
+        </section>
+    </main>
+     <footer>
+        <p>&copy; 2025 Oceano vivo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

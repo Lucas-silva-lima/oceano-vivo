@@ -86,3 +86,113 @@ img{
     margin: 1rem auto;
     padding: 1rem;
 }
+
+.curiosidades{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #002d70;
+    opacity: 87%;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+}
+.curiosidades img{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+.animais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.area label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.biologo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+.biologo img{
+    border-radius: 10px;
+    position: absolute;
+    top: 26rem;
+    right: 8rem;
+}
+.oceanografo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+.oceanografo img {
+    border-radius: 10px;
+    position: absolute;
+    top: 48rem;
+    right: 8rem;
+}
+.engenheiro{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+.engenheiro img{
+    border-radius: 10px;
+    position: absolute;
+    top: 70rem;
+    right: 8rem;
+}
+fieldset{
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+}
+legend{
+    font-weight: bold;
+    color: #f5f6f8;
+    padding: 0 0.5rem;
+}
+input, select{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: border-color 0.9s;
+}
+.radio-group, .check-box{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.radio-group input, .check-box input{
+    width: auto;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+button{
+    background: linear-gradient(135deg, #2058f3 0%, #1302ff 100%);
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 0.5rem;
+}
+
+.botoes{
+    text-align: center;
+    margin-top: 1.5rem;
+}
